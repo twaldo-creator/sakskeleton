@@ -111,3 +111,16 @@ h1 {
   font-size: 0.7rem;
   opacity: 0.55;
 }
+.footer a {
+  color: #ffffff;              /* white text */
+  text-decoration: none;       /* no underline by default */
+  position: relative;          /* allows pseudo-elements */
+  padding: 2px 0;              /* breathing room for lines */
+  transition: all 0.2s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;              /* stays white, but pops with lines */
+  text-decoration: underline overline; 
+  text-decoration-thickness: 1px;
+}
